@@ -1,0 +1,10 @@
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\bin\Debug\BigBirds.Domain.dll.config
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\bin\Debug\BigBirds.Domain.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\bin\Debug\BigBirds.Domain.pdb
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\bin\Debug\EntityFramework.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\bin\Debug\EntityFramework.xml
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\obj\Debug\BigBirds.Domain.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\obj\Debug\BigBirds.Domain.pdb
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\obj\Debug\BigBirds.Domain.csprojResolveAssemblyReference.cache

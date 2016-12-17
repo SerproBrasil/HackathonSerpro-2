@@ -1,0 +1,10 @@
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services\bin\Debug\BigBirds.Services.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services\bin\Debug\BigBirds.Services.pdb
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services\bin\Debug\Newtonsoft.Json.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services\bin\Debug\RestSharp.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services\bin\Debug\Wit.ai.net.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services\bin\Debug\Newtonsoft.Json.xml
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services\bin\Debug\RestSharp.xml
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services\obj\Debug\BigBirds.Services.csprojResolveAssemblyReference.cache
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services\obj\Debug\BigBirds.Services.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services\obj\Debug\BigBirds.Services.pdb

@@ -12,8 +12,9 @@ namespace BigBirds.Domain.Entities
 
         public string Protocolo { get; set; }
         public Orgao OrgaoCompetente { get; set; }
-        public DateTime CriadoEm { get; set; }
+        public DateTime DataAbertura { get; set; }
         public SituacaoReclamacao Situacao { get; set; }
+        public Localizacao LocalizacaoAtual { get; set; }
 
         #endregion
     }

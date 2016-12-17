@@ -1,0 +1,13 @@
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.Test.dll.config
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.Test.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.Test.pdb
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\EntityFramework.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.pdb
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\EntityFramework.xml
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\obj\Debug\BigBirds.Domain.Test.csprojResolveAssemblyReference.cache
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\obj\Debug\BigBirds.Domain.Test.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\obj\Debug\BigBirds.Domain.Test.pdb

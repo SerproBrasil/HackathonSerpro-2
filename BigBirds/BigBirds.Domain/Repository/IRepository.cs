@@ -12,8 +12,10 @@ namespace BigBirds.Domain.Repository
     {
         TEntity GetById(int id);
         ICollection<TEntity> GetAll();
-        ICollection<TEntity> GetAll(Expression<Func<TEntity>> criteria);
-        int Add(TEntity obj);
+        ICollection<TEntity> GetAll(Expression<Func<TEntity, bool>> criteria);
+        void Add(TEntity obj);
+        void Update(TEntity obj);
+        void Remove(TEntity obj);
         void Remove(int id);
     }
 }

@@ -10,9 +10,11 @@ namespace BigBirds.Domain.Entities
     {
         #region fields and properties
 
+        public virtual Estado Estado { get; set; }
+        public virtual Categoria Categoria { get; set; }
         public string Nome { get; set; }
         public string Descricao { get; set; }
-        public Uri UrlPagina { get; set; }
+        public string UrlPagina { get; set; }
 
         #endregion
     }

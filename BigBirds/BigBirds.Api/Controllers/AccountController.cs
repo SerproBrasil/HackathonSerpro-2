@@ -20,7 +20,7 @@ using BigBirds.Api.Results;
 namespace BigBirds.Api.Controllers
 {
     [Authorize]
-    [RoutePrefix("api/Account")]
+    [RoutePrefix("api/account")]
     public class AccountController : ApiController
     {
         private const string LocalLoginProvider = "Local";
@@ -51,7 +51,7 @@ namespace BigBirds.Api.Controllers
 
         public ISecureDataFormat<AuthenticationTicket> AccessTokenFormat { get; private set; }
 
-        // GET api/Account/UserInfo
+        // GET api/account/UserInfo
         [HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
         [Route("UserInfo")]
         public UserInfoViewModel GetUserInfo()
@@ -66,7 +66,7 @@ namespace BigBirds.Api.Controllers
             };
         }
 
-        // POST api/Account/Logout
+        // POST api/account/Logout
         [Route("Logout")]
         public IHttpActionResult Logout()
         {
@@ -74,7 +74,7 @@ namespace BigBirds.Api.Controllers
             return Ok();
         }
 
-        // GET api/Account/ManageInfo?returnUrl=%2F&generateState=true
+        // GET api/account/ManageInfo?returnUrl=%2F&generateState=true
         [Route("ManageInfo")]
         public async Task<ManageInfoViewModel> GetManageInfo(string returnUrl, bool generateState = false)
         {
@@ -114,7 +114,7 @@ namespace BigBirds.Api.Controllers
             };
         }
 
-        // POST api/Account/ChangePassword
+        // POST api/account/ChangePassword
         [Route("ChangePassword")]
         public async Task<IHttpActionResult> ChangePassword(ChangePasswordBindingModel model)
         {
@@ -134,7 +134,7 @@ namespace BigBirds.Api.Controllers
             return Ok();
         }
 
-        // POST api/Account/SetPassword
+        // POST api/account/SetPassword
         [Route("SetPassword")]
         public async Task<IHttpActionResult> SetPassword(SetPasswordBindingModel model)
         {
@@ -153,7 +153,7 @@ namespace BigBirds.Api.Controllers
             return Ok();
         }
 
-        // POST api/Account/AddExternalLogin
+        // POST api/account/AddExternalLogin
         [Route("AddExternalLogin")]
         public async Task<IHttpActionResult> AddExternalLogin(AddExternalLoginBindingModel model)
         {
@@ -220,7 +220,7 @@ namespace BigBirds.Api.Controllers
             return Ok();
         }
 
-        // GET api/Account/ExternalLogin
+        // GET api/account/ExternalLogin
         [OverrideAuthentication]
         [HostAuthentication(DefaultAuthenticationTypes.ExternalCookie)]
         [AllowAnonymous]
@@ -277,7 +277,7 @@ namespace BigBirds.Api.Controllers
             return Ok();
         }
 
-        // GET api/Account/ExternalLogins?returnUrl=%2F&generateState=true
+        // GET api/account/ExternalLogins?returnUrl=%2F&generateState=true
         [AllowAnonymous]
         [Route("ExternalLogins")]
         public IEnumerable<ExternalLoginViewModel> GetExternalLogins(string returnUrl, bool generateState = false)
@@ -340,7 +340,7 @@ namespace BigBirds.Api.Controllers
             return Ok();
         }
 
-        // POST api/Account/RegisterExternal
+        // POST api/account/RegisterExternal
         [OverrideAuthentication]
         [HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
         [Route("RegisterExternal")]
