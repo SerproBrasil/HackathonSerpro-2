@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBirds.Api", "BigBirds.Api\BigBirds.Api.csproj", "{2C3D2D81-B887-40D7-AD77-327607C114C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBirds.Api.Tests", "BigBirds.Api.Tests\BigBirds.Api.Tests.csproj", "{238415BD-16F8-4261-B84D-4FAD63A5E66F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigBirds.Domain", "BigBirds.Domain\BigBirds.Domain.csproj", "{A9406F01-2D08-462B-AE63-7A485C742344}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C3D2D81-B887-40D7-AD77-327607C114C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3D2D81-B887-40D7-AD77-327607C114C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3D2D81-B887-40D7-AD77-327607C114C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3D2D81-B887-40D7-AD77-327607C114C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{238415BD-16F8-4261-B84D-4FAD63A5E66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238415BD-16F8-4261-B84D-4FAD63A5E66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238415BD-16F8-4261-B84D-4FAD63A5E66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238415BD-16F8-4261-B84D-4FAD63A5E66F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9406F01-2D08-462B-AE63-7A485C742344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9406F01-2D08-462B-AE63-7A485C742344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9406F01-2D08-462B-AE63-7A485C742344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9406F01-2D08-462B-AE63-7A485C742344}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
