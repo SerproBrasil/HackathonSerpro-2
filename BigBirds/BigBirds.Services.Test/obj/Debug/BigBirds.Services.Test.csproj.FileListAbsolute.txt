@@ -1,0 +1,11 @@
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\bin\Debug\BigBirds.Services.Test.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\bin\Debug\BigBirds.Services.Test.pdb
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\bin\Debug\Newtonsoft.Json.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\bin\Debug\RestSharp.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\bin\Debug\Wit.ai.net.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\bin\Debug\Newtonsoft.Json.xml
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\bin\Debug\RestSharp.xml
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\obj\Debug\BigBirds.Services.Test.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\obj\Debug\BigBirds.Services.Test.pdb
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\obj\Debug\BigBirds.Services.Test.csprojResolveAssemblyReference.cache

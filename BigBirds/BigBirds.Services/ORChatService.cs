@@ -1,6 +1,7 @@
 ﻿using BigBirds.Domain.Entities;
 using BigBirds.Domain.Repository;
 using com.valgut.libs.bots.Wit;
+using com.valgut.libs.bots.Wit.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,66 +15,85 @@ namespace BigBirds.Services
         #region fields and properties
 
         private readonly IOrgaoRepository _orgaoRepository;
-        private readonly WitClient _witClient;
-        private BigBirdsContext _context;
+        private WitConversation<Dictionary<string, object>> _witConversation;
+        private Dictionary<string, object> _context;
         private readonly string _token;
-        private readonly string _conversationId;
+        private string _conversationId;
         private string _message;
         private bool didMerge = false;
         private bool didStop = false;
 
+        private readonly string INTENT_KEY = "Intent";
+        private readonly string ORGAO_KEY = Enum.GetName(typeof(Intents), Intents.orgao);
+        private readonly string ORGAOS_KEY = "orgaos";
+        private readonly string CATEGORIA_KEY = Enum.GetName(typeof(Intents), Intents.categoria);
+        private readonly string PROBLEMA_KEY = Enum.GetName(typeof(Intents), Intents.problema);
+
+        private const string GET_ORGAOS = "getOrgaos";
+
+
         #endregion
+
         #region constructors
 
         public ORChatService(string token, IOrgaoRepository orgaoRepository)
         {
-            _context = new BigBirdsContext();
-            _conversationId = Guid.NewGuid().ToString();
             _token = token;
             _orgaoRepository = orgaoRepository;
-            _witClient = new WitClient(_token);
         }
 
         #endregion
 
         #region IORChatService interface
 
-        public async Task<string> GetMessageAsync(string message)
+        public async Task<Dictionary<string,object>> GetMessageAsync(Dictionary<string, object> context)
         {
-            _context.InitialMessage = message;
-            _context.Message = message;
+            _conversationId = context.ContainsKey("conversation") ? context["conversation"].ToString() : Guid.NewGuid().ToString();
+            _witConversation = new WitConversation<Dictionary<string, object>>(_token, _conversationId, context, DoMerge, DoSay, DoAction, DoStop);
 
-            var conversation = new WitConversation<BigBirdsContext>(_token, _conversationId, _context, doMerge, doSay, doAction, doStop);
+            var message = context["message"].ToString();
 
-            await conversation.SendMessageAsync(_context.Message);
+            context.Remove("message");
+            context.Remove("conversation");
 
-            return _context.Message;
-        }
+            await _witConversation.SendMessageAsync(message);
 
-        public BigBirdsContext doMerge(string conversationId, BigBirdsContext context, object entities, double confidence)
-        {
-            didMerge = true;
             return context;
         }
 
-        public void doSay(string conversationId, BigBirdsContext context, string msg, double confidence)
+        public Dictionary<string, object> DoAction(string conversationId, Dictionary<string, object> context, string action, double confidence)
         {
-            context.Message = string.Format("{0}: {1}", msg, context.Orgaos != null && context.Orgaos.Count > 0 ? string.Join(",", context.Orgaos.Select(a => a.Nome)) : string.Empty);
-        }
-
-        public BigBirdsContext doAction(string conversationId, BigBirdsContext context, string action, double confidence)
-        {
-
-            if (action == "getOrgaos")
+            if (action == GET_ORGAOS)
             {
-                context.Orgaos = _orgaoRepository.GetOrgaosByCategoria(_context.InitialMessage).ToList();
-                context.Message = _context.Orgaos[0].Nome;
+                if (!context.ContainsKey(ORGAOS_KEY))
+                {
+                    var orgaos = _orgaoRepository.GetOrgaosByCategoria(context[CATEGORIA_KEY].ToString()).ToList();
+                    context.Add(ORGAOS_KEY, string.Join(",", orgaos.Select(o => o.Nome).ToArray()));
+                }
             }
 
             return context;
         }
 
-        public BigBirdsContext doStop(string conversationId, BigBirdsContext context)
+        public Dictionary<string, object> DoMerge(string conversationId, Dictionary<string, object> context, Dictionary<string, List<Entity>> entities, double confidence)
+        {
+            if (entities != null)
+            {
+                if (entities.ContainsKey(INTENT_KEY) && entities.ContainsKey(CATEGORIA_KEY))
+                {
+                    context.Add(CATEGORIA_KEY, entities[CATEGORIA_KEY][0].value.ToString());
+                }
+            }
+            return context;
+        }
+
+        public void DoSay(string conversationId, Dictionary<string, object> context, string msg, double confidence)
+        {
+            context["message"] = msg;
+            context["conversation"] = conversationId;
+        }
+
+        public Dictionary<string, object> DoStop(string conversationId, Dictionary<string, object> context)
         {
             didStop = true;
 
@@ -85,13 +105,20 @@ namespace BigBirds.Services
 
     public interface IORChatService
     {
-        Task<string> GetMessageAsync(string message);
+        Task<Dictionary<string, object>> GetMessageAsync(Dictionary<string, object> context);
     }
 
-    public class BigBirdsContext
+    //public class BigBirdsContext
+    //{
+    //    public string InitialMessage { get; set; }
+    //    public string Message { get; set; }
+    //    public List<Orgao> Orgaos { get; set; }
+    //}
+
+    public enum Intents
     {
-        public string InitialMessage { get; set; }
-        public string Message { get; set; }
-        public List<Orgao> Orgaos { get; set; }
+        categoria,
+        orgao,
+        problema
     }
 }

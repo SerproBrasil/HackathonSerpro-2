@@ -7,4 +7,3 @@ C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\bin\Debug\EntityFramework.xml
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\obj\Debug\BigBirds.Domain.dll
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\obj\Debug\BigBirds.Domain.pdb
-C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain\obj\Debug\BigBirds.Domain.csprojResolveAssemblyReference.cache
