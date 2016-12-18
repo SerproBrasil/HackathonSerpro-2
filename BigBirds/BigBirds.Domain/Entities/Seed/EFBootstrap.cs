@@ -9,7 +9,7 @@ using BigBirds.Domain.Contexts;
 
 namespace BigBirds.Domain.Entities.Seed
 {
-    public class EFBootstrap : System.Data.Entity.DropCreateDatabaseAlways<BigBirdsContext>
+    public class EFBootstrap : System.Data.Entity.DropCreateDatabaseIfModelChanges<BigBirdsContext>
     {
         protected override void Seed(BigBirdsContext context)
         {

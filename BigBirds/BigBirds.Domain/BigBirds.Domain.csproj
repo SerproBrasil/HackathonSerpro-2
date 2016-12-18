@@ -64,6 +64,7 @@
     <Compile Include="Repository\EFBaseRepository.cs" />
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Repository\IUnitOfWork.cs" />
+    <Compile Include="Repository\OrgaoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

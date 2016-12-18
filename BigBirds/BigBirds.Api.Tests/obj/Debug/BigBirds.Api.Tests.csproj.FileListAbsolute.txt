@@ -61,3 +61,5 @@ C:\dev\HackathonSerpro\BigBirds\BigBirds.Api.Tests\bin\Debug\Microsoft.Owin.Secu
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Api.Tests\obj\Debug\BigBirds.Api.Tests.csprojResolveAssemblyReference.cache
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Api.Tests\obj\Debug\BigBirds.Api.Tests.dll
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Api.Tests\obj\Debug\BigBirds.Api.Tests.pdb
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Api.Tests\bin\Debug\BigBirds.Services.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Api.Tests\bin\Debug\BigBirds.Services.pdb

@@ -77,3 +77,12 @@ C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\bin\System.Web.Http.Owin.xml
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\obj\Debug\BigBirds.Api.csprojResolveAssemblyReference.cache
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\obj\Debug\BigBirds.Api.dll
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\obj\Debug\BigBirds.Api.pdb
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\bin\BigBirds.Services.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\bin\BigBirds.Services.pdb
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\bin\Autofac.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\bin\Autofac.Integration.WebApi.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\bin\Autofac.xml
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\bin\Autofac.Integration.WebApi.xml
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\bin\Wit.ai.net.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\bin\RestSharp.dll
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Api\bin\RestSharp.xml

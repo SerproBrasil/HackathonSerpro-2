@@ -11,6 +11,10 @@ namespace BigBirds.Domain.Repository
         {
 
         }
+        public CategoriaRepository(BigBirdsContext context) : base(context)
+        {
+
+        }
 
         #endregion
     }

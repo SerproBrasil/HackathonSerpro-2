@@ -1,4 +1,5 @@
-﻿using BigBirds.Services;
+﻿using BigBirds.Api.Messages.Requests;
+using BigBirds.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Web.Http;
 
 namespace BigBirds.Api.Controllers
 {
-    [RoutePrefix("api/v1")]
+    [RoutePrefix("api/v1/chat")]
     public class ORBotController : ApiController
     {
         #region fields and properties
@@ -30,9 +31,15 @@ namespace BigBirds.Api.Controllers
         #region events and methods
 
         [Route("message")]
-        public async Task<IHttpActionResult> GetMessage()
+        [HttpPost]
+        public async Task<IHttpActionResult> PostMessage(Message message)
         {
-            throw new NotImplementedException();
+            var conversation = await _chatService.GetMessageAsync(message.Content);
+
+            return Ok(new {
+                status = 200,
+                message = conversation
+            });
         }
 
         #endregion
