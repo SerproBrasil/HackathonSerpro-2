@@ -104,6 +104,10 @@
       <Project>{2C3D2D81-B887-40D7-AD77-327607C114C4}</Project>
       <Name>BigBirds.Api</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BigBirds.Domain\BigBirds.Domain.csproj">
+      <Project>{A9406F01-2D08-462B-AE63-7A485C742344}</Project>
+      <Name>BigBirds.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />

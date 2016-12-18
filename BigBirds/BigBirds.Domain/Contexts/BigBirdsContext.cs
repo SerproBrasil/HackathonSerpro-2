@@ -17,6 +17,7 @@ namespace BigBirds.Domain.Contexts
             modelBuilder.Entity<Localizacao>().ToTable("TB_LOCALIZACAO");
             modelBuilder.Entity<Orgao>().ToTable("TB_ORGAO");
             modelBuilder.Entity<Reclamacao>().ToTable("TB_RECLAMACAO");
+            modelBuilder.Entity<ConclusaoReclamacao>().ToTable("TB_CONCLUSAO_RECLAMACAO");
         }
     }
 }
