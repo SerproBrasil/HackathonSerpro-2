@@ -16,8 +16,20 @@ namespace BigBirds.Domain.Entities.Seed
             var estados = CarregarEstados(context);
             var categorias = CarregarCategorias(context);
             CarregarOrgaos(context, estados, categorias);
+            CarregarSolucoes();
         }
 
+        private List<ConclusaoReclamacao> CarregarSolucoes()
+        {
+            var solucoes = new List<ConclusaoReclamacao>
+            {
+                new ConclusaoReclamacao {
+                Conclusao= "Entrar em contato com a companhia aérea.",
+                PalavrasChaves = "mala extraviada"
+                }
+            };
+            return solucoes;
+        }
         private List<Estado> CarregarEstados(BigBirdsContext context)
         {
             var estados = new List<Estado>() {
