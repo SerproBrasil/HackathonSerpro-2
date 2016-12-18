@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns:gap = "http://phonegap.com/ns/1.0" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps" id="com.agenciamagine.escpart" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
+  <name>Onde Reclamar</name>
+  <description>Onde Reclamar.</description>
+  <author href="http://agenciamagine.com.br" email="contato@agenciamagine.com.br">Luar Faria</author>
+  <content src="index.html" />
+  <preference name="phonegap-version" value="cli-6.0.0" />
+  <preference name="android-build-tool" value="gradle" /> 
+  <preference name="android-minSdkVersion" value="15" />
+  <preference name="android-targetSdkVersion" value="20" />
+  <preference name="SplashScreen" value="screen" />
+  <preference name="windows-target-version" value="8.0" />
+  <preference name="windows-phone-target-version" value="8.1" />
+   
+<plugin spec="https://github.com/vilic/cordova-plugin-tts.git" source="git" />
+<plugin name="cordova-plugin-device" spec="~1.1.3" />
+<plugin name="cordova-plugin-dialogs" spec="~1.3.0" />
+<plugin name="cordova-plugin-network-information" spec="~1.3.0" />
+<plugin name="cordova-plugin-whitelist" source="npm" />
+
+<access origin="*" />
+<allow-intent href="*" />
+<allow-navigation href="*" />
+
+<icon src="icon.png" />
+  
+  <icon src="res/icon/android/icon-36-ldpi.png"   platform="android"    gap:density="ldpi" />
+  <icon src="res/icon/android/icon-48-mdpi.png"   platform="android"    gap:density="mdpi" />
+  <icon src="res/icon/android/icon-72-hdpi.png"   platform="android"    gap:density="hdpi" />
+  <icon src="res/icon/android/icon-96-xhdpi.png"  platform="android"    gap:density="xhdpi" />
+                                                  
+                                                  
+  <icon src="res/icon/blackberry/icon-80.png"     platform="blackberry" />
+  <icon src="res/icon/blackberry/icon-80.png"     platform="blackberry" gap:state="hover"/>
+  
+  <icon src="res/icon/ios/icon.png" platform="ios" width="57" height="57" />
+<icon src="res/icon/ios/icon@2x.png" platform="ios" width="114" height="114" />
+  
+  <!-- iPhone 6 / 6+ -->
+<icon src="res/icon/ios/icon-60@3x.png" platform="ios" width="180" height="180" />
+
+<!-- iPad -->
+<icon src="res/icon/ios/icon-72.png" platform="ios" width="72" height="72" />
+<icon src="res/icon/ios/icon-72@2x.png" platform="ios" width="144" height="144" />
+
+<!-- iPhone / iPod Touch  -->
+<icon src="res/icon/ios/icon-60.png" platform="ios" width="60" height="60" />
+<icon src="res/icon/ios/icon-60@2x.png" platform="ios" width="120" height="120" />
+
+<!-- iPad -->
+<icon src="res/icon/ios/icon-76.png" platform="ios" width="76" height="76" />
+<icon src="res/icon/ios/icon-76@2x.png" platform="ios" width="152" height="152" />
+
+<!-- Settings Icon -->
+<icon src="res/icon/ios/icon-small.png" platform="ios" width="29" height="29" />
+<icon src="res/icon/ios/icon-small@2x.png" platform="ios" width="58" height="58" />
+
+<!-- Spotlight Icon -->
+<icon src="res/icon/ios/icon-40.png" platform="ios" width="40" height="40" />
+<icon src="res/icon/ios/icon-40@2x.png" platform="ios" width="80" height="80" />
+  
+  <icon src="res/icon/webos/icon-64.png"          platform="webos" />
+  <icon src="res/icon/windows-phone/icon-48.png"  platform="winphone" />
+  <icon src="res/icon/windows-phone/icon-173.png" platform="winphone"   gap:role="background" />
+
+  <splash src="res/screen/android/screen-ldpi-portrait.png"  platform="android" gap:density="ldpi" gap:qualifier="port-ldpi" />
+  <splash src="res/screen/android/screen-mdpi-portrait.png"  platform="android" gap:density="mdpi" gap:qualifier="port-mdpi"  />
+  <splash src="res/screen/android/screen-hdpi-portrait.png"  platform="android" gap:density="hdpi" gap:qualifier="port-hdpi"  />
+  <splash src="res/screen/android/screen-xhdpi-portrait.png" platform="android" gap:density="xhdpi" gap:qualifier="port-xhdpi"  />
+
+  <splash src="res/screen/android/screen-ldpi-landscape.png"  platform="android" gap:density="ldpi" gap:qualifier="land-ldpi" />
+  <splash src="res/screen/android/screen-mdpi-landscape.png"  platform="android" gap:density="mdpi" gap:qualifier="land-mdpi" />
+  <splash src="res/screen/android/screen-hdpi-landscape.png"  platform="android" gap:density="hdpi" gap:qualifier="land-hdpi" />
+  <splash src="res/screen/android/screen-xhdpi-landscape.png" platform="android" gap:density="xhdpi" gap:qualifier="land-xhdpi" />
+
+  <!-- iPhones -->
+<splash src="res/screen/ios/screen-iphone-portrait.png" platform="ios" width="320" height="480" />
+<splash src="res/screen/ios/screen-iphone-portrait-2x.png" platform="ios" width="640" height="960" />
+<!-- iPhone 5 / iPod Touch (5th Generation) -->
+<splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" platform="ios" width="640" height="1136" />
+<!-- iPhone 6 -->
+<splash src="res/screen/ios/Splash-750x1334.png" platform="ios" width="750" height="1334" />
+<splash src="res/screen/ios/Splash-1242x2208.png" platform="ios" width="1242" height="2208" />
+<splash src="res/screen/ios/screen-ipad-landscape-2x.png" platform="ios" width="2208" height="1242" />
+
+  <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
+</widget>

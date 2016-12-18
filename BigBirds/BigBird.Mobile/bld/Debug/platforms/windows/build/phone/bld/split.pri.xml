@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="io.cordova.FurandoFila.Mobile.Produtor" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>240</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="config.xml" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/config.xml">
+				<Candidate type="Path">
+					<Value>config.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="images">
+				<NamedResource name="SplashScreen.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/images/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreenPhone.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/images/SplashScreenPhone.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\SplashScreenPhone.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/images/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square150x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square30x30Logo.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/images/Square30x30Logo.png"/>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/images/Square310x310Logo.png"/>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/images/Square44x44Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square44x44Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square70x70Logo.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/images/Square70x70Logo.png"/>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/images/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/images/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/images/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>images\Wide310x150Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="www">
+				<NamedResource name="cordova.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/cordova.js">
+					<Candidate type="Path">
+						<Value>www\cordova.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="cordova_plugins.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/cordova_plugins.js">
+					<Candidate type="Path">
+						<Value>www\cordova_plugins.js</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="FurandoFila.Mobile.Produtor.jsproj.vspscc" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/FurandoFila.Mobile.Produtor.jsproj.vspscc">
+					<Candidate type="Path">
+						<Value>www\FurandoFila.Mobile.Produtor.jsproj.vspscc</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="index.html" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/index.html">
+					<Candidate type="Path">
+						<Value>www\index.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="lista.html" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/lista.html">
+					<Candidate type="Path">
+						<Value>www\lista.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="resultado.html" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/resultado.html">
+					<Candidate type="Path">
+						<Value>www\resultado.html</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="venda.html" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/venda.html">
+					<Candidate type="Path">
+						<Value>www\venda.html</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Content">
+					<NamedResource name="jquery.mobile-1.4.5.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile-1.4.5.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile-1.4.5.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile-1.4.5.min.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile-1.4.5.min.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile-1.4.5.min.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile.external-png-1.4.5.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile.external-png-1.4.5.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile.external-png-1.4.5.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile.external-png-1.4.5.min.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile.external-png-1.4.5.min.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile.external-png-1.4.5.min.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile.icons-1.4.5.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile.icons-1.4.5.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile.icons-1.4.5.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile.icons-1.4.5.min.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile.icons-1.4.5.min.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile.icons-1.4.5.min.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile.inline-png-1.4.5.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile.inline-png-1.4.5.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile.inline-png-1.4.5.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile.inline-png-1.4.5.min.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile.inline-png-1.4.5.min.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile.inline-png-1.4.5.min.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile.inline-svg-1.4.5.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile.inline-svg-1.4.5.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile.inline-svg-1.4.5.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile.inline-svg-1.4.5.min.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile.inline-svg-1.4.5.min.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile.inline-svg-1.4.5.min.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile.structure-1.4.5.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile.structure-1.4.5.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile.structure-1.4.5.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile.structure-1.4.5.min.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile.structure-1.4.5.min.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile.structure-1.4.5.min.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile.theme-1.4.5.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile.theme-1.4.5.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile.theme-1.4.5.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile.theme-1.4.5.min.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/jquery.mobile.theme-1.4.5.min.css">
+						<Candidate type="Path">
+							<Value>www\Content\jquery.mobile.theme-1.4.5.min.css</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="images">
+						<NamedResource name="ajax-loader.gif" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/ajax-loader.gif">
+							<Candidate type="Path">
+								<Value>www\Content\images\ajax-loader.gif</Value>
+							</Candidate>
+						</NamedResource>
+						<ResourceMapSubtree name="icons-png">
+							<NamedResource name="action-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/action-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\action-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="action-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/action-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\action-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="alert-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/alert-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\alert-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="alert-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/alert-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\alert-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-d-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-d-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-d-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-d-l-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-d-l-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-d-l-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-d-l-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-d-l-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-d-l-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-d-r-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-d-r-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-d-r-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-d-r-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-d-r-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-d-r-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-d-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-d-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-d-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-l-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-l-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-l-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-l-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-l-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-l-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-r-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-r-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-r-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-r-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-r-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-r-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-u-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-u-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-u-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-u-l-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-u-l-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-u-l-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-u-l-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-u-l-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-u-l-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-u-r-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-u-r-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-u-r-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-u-r-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-u-r-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-u-r-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-u-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/arrow-u-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\arrow-u-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="audio-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/audio-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\audio-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="audio-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/audio-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\audio-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="back-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/back-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\back-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="back-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/back-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\back-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="bars-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/bars-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\bars-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="bars-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/bars-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\bars-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="bullets-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/bullets-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\bullets-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="bullets-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/bullets-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\bullets-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="calendar-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/calendar-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\calendar-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="calendar-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/calendar-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\calendar-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="camera-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/camera-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\camera-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="camera-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/camera-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\camera-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-d-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/carat-d-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\carat-d-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-d-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/carat-d-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\carat-d-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-l-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/carat-l-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\carat-l-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-l-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/carat-l-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\carat-l-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-r-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/carat-r-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\carat-r-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-r-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/carat-r-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\carat-r-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-u-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/carat-u-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\carat-u-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-u-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/carat-u-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\carat-u-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="check-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/check-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\check-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="check-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/check-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\check-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="clock-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/clock-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\clock-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="clock-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/clock-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\clock-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="cloud-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/cloud-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\cloud-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="cloud-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/cloud-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\cloud-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="comment-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/comment-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\comment-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="comment-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/comment-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\comment-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="delete-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/delete-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\delete-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="delete-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/delete-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\delete-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="edit-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/edit-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\edit-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="edit-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/edit-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\edit-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="eye-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/eye-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\eye-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="eye-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/eye-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\eye-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="forbidden-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/forbidden-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\forbidden-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="forbidden-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/forbidden-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\forbidden-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="forward-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/forward-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\forward-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="forward-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/forward-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\forward-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="gear-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/gear-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\gear-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="gear-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/gear-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\gear-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="grid-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/grid-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\grid-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="grid-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/grid-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\grid-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="heart-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/heart-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\heart-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="heart-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/heart-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\heart-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="home-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/home-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\home-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="home-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/home-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\home-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="info-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/info-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\info-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="info-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/info-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\info-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="location-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/location-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\location-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="location-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/location-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\location-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="lock-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/lock-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\lock-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="lock-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/lock-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\lock-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="mail-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/mail-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\mail-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="mail-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/mail-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\mail-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="minus-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/minus-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\minus-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="minus-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/minus-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\minus-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="navigation-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/navigation-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\navigation-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="navigation-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/navigation-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\navigation-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="phone-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/phone-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\phone-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="phone-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/phone-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\phone-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="plus-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/plus-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\plus-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="plus-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/plus-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\plus-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="power-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/power-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\power-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="power-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/power-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\power-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="recycle-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/recycle-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\recycle-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="recycle-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/recycle-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\recycle-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="refresh-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/refresh-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\refresh-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="refresh-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/refresh-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\refresh-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="search-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/search-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\search-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="search-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/search-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\search-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="shop-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/shop-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\shop-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="shop-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/shop-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\shop-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="star-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/star-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\star-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="star-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/star-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\star-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="tag-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/tag-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\tag-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="tag-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/tag-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\tag-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="user-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/user-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\user-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="user-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/user-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\user-white.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="video-black.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/video-black.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\video-black.png</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="video-white.png" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-png/video-white.png">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-png\video-white.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="icons-svg">
+							<NamedResource name="action-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/action-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\action-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="action-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/action-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\action-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="alert-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/alert-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\alert-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="alert-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/alert-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\alert-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-d-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-d-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-d-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-d-l-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-d-l-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-d-l-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-d-l-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-d-l-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-d-l-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-d-r-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-d-r-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-d-r-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-d-r-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-d-r-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-d-r-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-d-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-d-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-d-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-l-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-l-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-l-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-l-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-l-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-l-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-r-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-r-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-r-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-r-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-r-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-r-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-u-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-u-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-u-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-u-l-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-u-l-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-u-l-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-u-l-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-u-l-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-u-l-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-u-r-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-u-r-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-u-r-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-u-r-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-u-r-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-u-r-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="arrow-u-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/arrow-u-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\arrow-u-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="audio-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/audio-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\audio-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="audio-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/audio-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\audio-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="back-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/back-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\back-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="back-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/back-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\back-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="bars-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/bars-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\bars-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="bars-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/bars-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\bars-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="bullets-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/bullets-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\bullets-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="bullets-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/bullets-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\bullets-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="calendar-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/calendar-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\calendar-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="calendar-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/calendar-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\calendar-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="camera-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/camera-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\camera-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="camera-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/camera-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\camera-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-d-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/carat-d-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\carat-d-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-d-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/carat-d-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\carat-d-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-l-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/carat-l-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\carat-l-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-l-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/carat-l-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\carat-l-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-r-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/carat-r-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\carat-r-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-r-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/carat-r-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\carat-r-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-u-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/carat-u-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\carat-u-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="carat-u-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/carat-u-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\carat-u-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="check-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/check-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\check-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="check-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/check-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\check-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="clock-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/clock-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\clock-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="clock-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/clock-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\clock-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="cloud-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/cloud-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\cloud-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="cloud-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/cloud-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\cloud-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="comment-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/comment-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\comment-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="comment-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/comment-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\comment-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="delete-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/delete-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\delete-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="delete-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/delete-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\delete-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="edit-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/edit-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\edit-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="edit-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/edit-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\edit-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="eye-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/eye-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\eye-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="eye-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/eye-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\eye-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="forbidden-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/forbidden-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\forbidden-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="forbidden-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/forbidden-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\forbidden-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="forward-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/forward-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\forward-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="forward-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/forward-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\forward-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="gear-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/gear-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\gear-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="gear-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/gear-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\gear-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="grid-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/grid-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\grid-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="grid-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/grid-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\grid-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="heart-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/heart-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\heart-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="heart-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/heart-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\heart-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="home-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/home-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\home-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="home-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/home-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\home-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="info-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/info-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\info-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="info-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/info-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\info-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="location-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/location-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\location-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="location-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/location-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\location-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="lock-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/lock-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\lock-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="lock-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/lock-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\lock-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="mail-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/mail-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\mail-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="mail-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/mail-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\mail-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="minus-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/minus-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\minus-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="minus-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/minus-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\minus-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="navigation-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/navigation-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\navigation-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="navigation-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/navigation-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\navigation-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="phone-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/phone-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\phone-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="phone-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/phone-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\phone-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="plus-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/plus-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\plus-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="plus-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/plus-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\plus-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="power-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/power-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\power-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="power-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/power-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\power-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="recycle-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/recycle-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\recycle-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="recycle-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/recycle-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\recycle-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="refresh-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/refresh-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\refresh-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="refresh-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/refresh-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\refresh-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="search-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/search-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\search-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="search-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/search-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\search-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="shop-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/shop-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\shop-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="shop-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/shop-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\shop-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="star-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/star-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\star-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="star-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/star-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\star-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="tag-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/tag-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\tag-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="tag-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/tag-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\tag-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="user-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/user-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\user-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="user-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/user-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\user-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="video-black.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/video-black.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\video-black.svg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="video-white.svg" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/Content/images/icons-svg/video-white.svg">
+								<Candidate type="Path">
+									<Value>www\Content\images\icons-svg\video-white.svg</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="css">
+					<NamedResource name="app.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/css/app.css">
+						<Candidate type="Path">
+							<Value>www\css\app.css</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="index.css" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/css/index.css">
+						<Candidate type="Path">
+							<Value>www\css\index.css</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="plugins">
+					<ResourceMapSubtree name="com.lampa.startapp">
+						<ResourceMapSubtree name="www">
+							<NamedResource name="startApp.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/plugins/com.lampa.startapp/www/startApp.js">
+								<Candidate type="Path">
+									<Value>www\plugins\com.lampa.startapp\www\startApp.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="cordova-plugin-device">
+						<ResourceMapSubtree name="src">
+							<ResourceMapSubtree name="windows">
+								<NamedResource name="DeviceProxy.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/plugins/cordova-plugin-device/src/windows/DeviceProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="www">
+							<NamedResource name="device.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/plugins/cordova-plugin-device/www/device.js">
+								<Candidate type="Path">
+									<Value>www\plugins\cordova-plugin-device\www\device.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="cordova-plugin-dialogs">
+						<ResourceMapSubtree name="src">
+							<ResourceMapSubtree name="windows">
+								<NamedResource name="NotificationProxy.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/plugins/cordova-plugin-dialogs/src/windows/NotificationProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\cordova-plugin-dialogs\src\windows\NotificationProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="www">
+							<NamedResource name="notification.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/plugins/cordova-plugin-dialogs/www/notification.js">
+								<Candidate type="Path">
+									<Value>www\plugins\cordova-plugin-dialogs\www\notification.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="org.apache.cordova.network-information">
+						<ResourceMapSubtree name="src">
+							<ResourceMapSubtree name="windows8">
+								<NamedResource name="NetworkInfoProxy.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/plugins/org.apache.cordova.network-information/src/windows8/NetworkInfoProxy.js">
+									<Candidate type="Path">
+										<Value>www\plugins\org.apache.cordova.network-information\src\windows8\NetworkInfoProxy.js</Value>
+									</Candidate>
+								</NamedResource>
+							</ResourceMapSubtree>
+						</ResourceMapSubtree>
+						<ResourceMapSubtree name="www">
+							<NamedResource name="Connection.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/plugins/org.apache.cordova.network-information/www/Connection.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.network-information\www\Connection.js</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="network.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/plugins/org.apache.cordova.network-information/www/network.js">
+								<Candidate type="Path">
+									<Value>www\plugins\org.apache.cordova.network-information\www\network.js</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="scripts">
+					<NamedResource name="index.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/index.js">
+						<Candidate type="Path">
+							<Value>www\scripts\index.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery-2.2.1.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/jquery-2.2.1.js">
+						<Candidate type="Path">
+							<Value>www\scripts\jquery-2.2.1.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery-2.2.1.min.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/jquery-2.2.1.min.js">
+						<Candidate type="Path">
+							<Value>www\scripts\jquery-2.2.1.min.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile-1.4.5.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/jquery.mobile-1.4.5.js">
+						<Candidate type="Path">
+							<Value>www\scripts\jquery.mobile-1.4.5.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="jquery.mobile-1.4.5.min.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/jquery.mobile-1.4.5.min.js">
+						<Candidate type="Path">
+							<Value>www\scripts\jquery.mobile-1.4.5.min.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="platformOverrides.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/platformOverrides.js">
+						<Candidate type="Path">
+							<Value>www\scripts\platformOverrides.js</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="winstore-jscompat.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/winstore-jscompat.js">
+						<Candidate type="Path">
+							<Value>www\scripts\winstore-jscompat.js</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="controllers">
+						<NamedResource name="autorizacao.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/controllers/autorizacao.js">
+							<Candidate type="Path">
+								<Value>www\scripts\controllers\autorizacao.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="conexao.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/controllers/conexao.js">
+							<Candidate type="Path">
+								<Value>www\scripts\controllers\conexao.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="init.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/controllers/init.js">
+							<Candidate type="Path">
+								<Value>www\scripts\controllers\init.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="lista.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/controllers/lista.js">
+							<Candidate type="Path">
+								<Value>www\scripts\controllers\lista.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="mensagem.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/controllers/mensagem.js">
+							<Candidate type="Path">
+								<Value>www\scripts\controllers\mensagem.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="menu.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/controllers/menu.js">
+							<Candidate type="Path">
+								<Value>www\scripts\controllers\menu.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="serviceBase.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/controllers/serviceBase.js">
+							<Candidate type="Path">
+								<Value>www\scripts\controllers\serviceBase.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="venda.js" uri="ms-resource://io.cordova.FurandoFila.Mobile.Produtor/Files/www/scripts/controllers/venda.js">
+							<Candidate type="Path">
+								<Value>www\scripts\controllers\venda.js</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

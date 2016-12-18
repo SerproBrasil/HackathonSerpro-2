@@ -1,0 +1,57 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"wp-package\" value=\"Device\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"wp-package\" value=\"Notification\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"NetworkStatus\"><param name=\"wp-package\" value=\"NetworkStatus\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "Properties/WMAppManifest.xml": {
+                "parents": {
+                    "/Deployment/App/Capabilities": [
+                        {
+                            "xml": "<Capability Name=\"ID_CAP_IDENTITY_DEVICE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<Capability Name=\"ID_CAP_NETWORKING\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.lampa.startapp": {
+            "PACKAGE_NAME": "{4821f810-7445-11e6-b677-8fcdbbe313af}"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "{4821f810-7445-11e6-b677-8fcdbbe313af}"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "{4821f810-7445-11e6-b677-8fcdbbe313af}"
+        },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "{4821f810-7445-11e6-b677-8fcdbbe313af}"
+        }
+    },
+    "dependent_plugins": {}
+}

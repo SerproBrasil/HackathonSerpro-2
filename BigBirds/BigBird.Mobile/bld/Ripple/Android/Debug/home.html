@@ -1,0 +1,32 @@
+﻿<form class="content">
+    <div id="formHome">
+        <div class="mensagem-container">
+            <div class="container-img-avatar-robo">
+                <img src="images/avatar-robo.png" class="img-avatar-robo" /><br />
+            </div>
+            <label class="mensagem">Olá, seu problema é relacionado com que assunto? Ex: Saúde, Educação, Transporte Público...</label>
+        </div>
+        <div id="templateBot" style="display: none">
+            <div class="mensagem-container">
+                <div class="container-img-avatar-robo">
+                    <img src="images/avatar-robo.png" class="img-avatar-robo" /><br />
+                </div>
+                <label class="mensagem">{mensagem}</label>
+            </div>
+        </div>
+        <div id="templateUser" style="display: none">
+            <div class="mensagem-container">
+                <div class="container-img-avatar-user">
+                    <img src="images/avatar-user.png" class="img-avatar-user" /><br />
+                </div>
+                <label class="mensagem">{mensagem}</label>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="container-texto">
+    <label class="digitando" style="display: none">Jonas Bot está digitando...</label>
+    <textarea class="texto" type="text" id="txtTexto"></textarea>
+    <div class="linha-input"></div>
+    <a id="btnEnviar"><img src="images/seta.png" class="botao-seta" /></a>
+</div>

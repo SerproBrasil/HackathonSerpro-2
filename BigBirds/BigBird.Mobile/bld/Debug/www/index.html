@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, target-densitydpi=medium-dpi, user-scalable=0" />
+    <meta charset="utf-8" />
+    <title>Fenacon</title>
+
+    <!-- Fenacon.Mobile references -->
+    <link href="Content/jquery.mobile-1.4.5.css" rel="stylesheet" />
+    <!--<link href="css/font-awesome.css" rel="stylesheet" />-->
+    <link href="css/app.css" rel="stylesheet" />
+    <!--<link href="css/app-landscape.css" rel="stylesheet" media="(min-width: 481px) and (max-width: 800px) and (orientation: landscape)" />-->
+
+
+</head>
+<body class="mobile">
+    <div data-role="page" id="pagePrincipal" data-cache="false">
+        <div id="headerPrincipal" data-role="header" class="header" data-position="fixed" data-tap-toggle="false" style="position: fixed">
+            <div class="logo"></div>
+            <div data-role="navbar" style="margin-top: 70px;">
+                <ul>
+                    <li id="menuVenda"><a href="#" data-icon="tag" class="ui-btn-active">Vendas</a></li>
+                    <li id="menuLista"><a href="#" data-icon="bullets">Nome na Lista</a></li>
+                </ul>
+            </div><!-- /navbar -->
+        </div>
+
+        <div id="msgBox" data-role="header" class="header msg-gray not-displayed">
+            <h3 id="msgBoxTxt"></h3>
+        </div>
+
+        <div role="main" class="ui-content" id="container" style="margin-top: 39px;">
+  
+        </div>
+    </div>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="scripts/jquery-2.2.1.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="startApp.js"></script>
+    <script src="device.js"></script>
+    <script src="network.js"></script>
+    <script src="scripts/controllers/mensagem.js"></script>
+    <script src="scripts/controllers/menu.js"></script>
+    <script src="scripts/controllers/init.js"></script>
+    <!--<script src="plugins/cordova-plugin-dialogs-master/www/notification.js"></script>-->
+    <script src="scripts/controllers/serviceBase.js"></script>
+    <script src="scripts/controllers/conexao.js"></script>
+    <script src="scripts/controllers/venda.js"></script>
+    <script src="scripts/controllers/lista.js"></script>
+    <script src="scripts/controllers/autorizacao.js"></script>
+</body>
+</html>

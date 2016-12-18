@@ -1,0 +1,1 @@
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\windows\CordovaApp.Phone.jsproj;neutral

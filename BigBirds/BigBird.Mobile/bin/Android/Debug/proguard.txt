@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:6
+-keep class io.cordova.FurandoFila.Mobile.Produtor.MainActivity { <init>(...); }
+

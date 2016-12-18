@@ -1,0 +1,165 @@
+﻿
+.acessibilidade {
+    width: 8%;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.container-texto {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    z-index: 99999999;
+    background-color: #eee;
+}
+
+#formHome {
+    position: absolute;
+    height: 70%;
+    overflow: auto;
+    left: 0px;
+}
+
+.mensagem-container {
+    padding-top: 10px;
+    min-height: 62px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.mensagem {
+    width: 75%;
+    background-color: white;
+    padding: 5px 0px 5px 8px;
+    position: relative;
+    display: flex !important;
+}
+
+.container-img-avatar-robo {
+    width: 17%;
+    float: left;
+    position: relative;
+    display: flex;
+    padding-right: 5px;
+}
+
+.digitando {
+    font-size: 12px !important;
+    left: 7px;
+    position: relative;
+    bottom: -8px;
+}
+
+.img-avatar-robo {
+    width: 100%;
+    height: 100%;
+    max-width: 60px;
+}
+
+.nome-bot {
+    position: relative;
+    left: -3em;
+    top: 3em;
+    font-size: 12px;
+    text-align: center;
+}
+
+.nome-user {
+    position: relative;
+    left: -30px;
+    top: 33px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.container-img-avatar-user {
+    width: 17%;
+    float: right;
+    position: relative;
+    display: flex;
+    padding-left: 5px;
+}
+
+.img-avatar-user {
+   width: 100%;
+    height: 100%;
+    max-width: 60px;
+}
+
+.balao {
+    width: 100%;
+}
+
+.texto {
+    height: 52px;
+    padding-right: 30px !important;
+}
+
+.linha-input {
+    border-bottom: 2px solid #127ed2;
+    position: absolute;
+    bottom: 9px;
+    width: 88%;
+    left: 0.5%;
+}
+
+.botao-seta {
+    width: 28px;
+    position: absolute;
+    float: right;
+    bottom: 18px;
+    right: 4px;
+}
+
+.logo-texto {
+    width: 50%;
+    position: relative;
+    text-shadow: 0 /*{a-page-shadow-x}*/ 1px /*{a-page-shadow-y}*/ 0 /*{a-page-shadow-radius}*/ #f3f3f3 /*{a-page-shadow-color}*/;
+    float: left;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 17pt;
+    top: -19px;
+}
+
+.header {
+    height: 70px;
+    background-color: #127ed2 !important;
+}
+
+    .header .logo {
+        width: 200px;
+        height: 64px;
+        margin: 0 auto;
+        position: absolute;
+        top: 2px;
+        left: 50%;
+        margin-left: -25%;
+    }
+
+        .header .logo img {
+            width: 32%;
+        }
+
+.not-displayed {
+    display: none;
+}
+
+.msg-gray {
+    background-color: #383636 !important;
+    height: 35px;
+}
+
+.ui-navbar ul li {
+    border-bottom: 1px solid #DDDDDD !important;
+}
+
+.btn-pesquisar input[type=submit] {
+    background: #a69256;
+    color: #ffffff;
+    font-size: 12px;
+    box-shadow: none;
+    margin: 0 auto;
+}

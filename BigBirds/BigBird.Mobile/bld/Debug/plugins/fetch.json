@@ -1,0 +1,26 @@
+{
+    "com.lampa.startapp": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Jobs\\Serpro\\BigBird\\BigBird.Mobile\\plugins\\com.lampa.startapp-master"
+        }
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Jobs\\Serpro\\BigBird\\BigBird.Mobile\\plugins\\cordova-plugin-device-master"
+        }
+    },
+    "cordova-plugin-dialogs": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Jobs\\Serpro\\BigBird\\BigBird.Mobile\\plugins\\cordova-plugin-dialogs-master"
+        }
+    },
+    "org.apache.cordova.network-information": {
+        "source": {
+            "type": "local",
+            "path": "C:\\Jobs\\Serpro\\BigBird\\BigBird.Mobile\\plugins\\org.apache.cordova.network-information"
+        }
+    }
+}

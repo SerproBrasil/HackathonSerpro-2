@@ -1,0 +1,1 @@
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\windows\AppPackages\CordovaApp.Phone_1.0.0.0_debug_Test\CordovaApp.Phone_1.0.0.0_AnyCPU_debug.appxbundle

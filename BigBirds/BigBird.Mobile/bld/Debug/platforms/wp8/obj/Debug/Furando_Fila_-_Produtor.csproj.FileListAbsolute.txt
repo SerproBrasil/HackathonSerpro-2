@@ -1,0 +1,15 @@
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\Bin\Debug\Background.png
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\Bin\Debug\io.cordova.FurandoFila.Mobile.Produtor.dll
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\Bin\Debug\io.cordova.FurandoFila.Mobile.Produtor.pdb
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\obj\Debug\App.g.cs
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\obj\Debug\Plugins\cordova-plugin-dialogs\NotificationBox.g.cs
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\obj\Debug\io.cordova.FurandoFila.Mobile.Produtor.g.resources
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\obj\Debug\io.cordova.FurandoFila.Mobile.Produtor.dll
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\obj\Debug\io.cordova.FurandoFila.Mobile.Produtor.pdb
+C:\Jobs\Furando Fila\trunk\Furando Fila\FurandoFila.Mobile.Produtor\bld\Debug\platforms\wp8\obj\Debug\XapCacheFile.xml
