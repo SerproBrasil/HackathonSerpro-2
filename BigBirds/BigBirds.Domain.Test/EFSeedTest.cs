@@ -9,7 +9,7 @@ using BigBirds.Domain.Entities.Seed;
 namespace BigBirds.Domain.Test
 {
     [TestClass]
-    public class CategoriaRepositoryTest
+    public class EFSeedTest
     {
         [TestMethod]
         public void DeveRodarARotinaDeSeedDoBanco()

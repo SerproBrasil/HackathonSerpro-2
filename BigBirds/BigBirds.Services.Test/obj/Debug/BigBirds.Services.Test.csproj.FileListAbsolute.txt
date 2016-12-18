@@ -8,4 +8,3 @@ C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\bin\Debug\Newtonsoft.Json
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\bin\Debug\RestSharp.xml
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\obj\Debug\BigBirds.Services.Test.dll
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\obj\Debug\BigBirds.Services.Test.pdb
-C:\dev\HackathonSerpro\BigBirds\BigBirds.Services.Test\obj\Debug\BigBirds.Services.Test.csprojResolveAssemblyReference.cache

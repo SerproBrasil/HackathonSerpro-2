@@ -59,8 +59,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="CategoriaRepositoryTest.cs" />
+    <Compile Include="EFSeedTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestConclusaoReclamacao.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BigBirds.Domain\BigBirds.Domain.csproj">

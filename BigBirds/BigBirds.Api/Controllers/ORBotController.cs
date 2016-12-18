@@ -23,20 +23,32 @@ namespace BigBirds.Api.Controllers
         private IORChatService _chatService;
         private IOrgaoRepository _orgaoRepo;
         private WitConversation<Dictionary<string, object>> _client;
+        private readonly IRespostasAnterioresService _previousAnswersService;
 
         #endregion
 
         #region constructors
 
-        public ORBotController()
+        public ORBotController(IRespostasAnterioresService previousAnswersService)
         {
             // _chatService = new ORChatService(ConfigConstants.WIT_ACCESS_TOKEN, new OrgaoRepository());
+            _previousAnswersService = new RespostasAnterioresService(new ConclusaoReclamacaoRepository());
             _orgaoRepo = new OrgaoRepository();
         }
 
         #endregion
 
         #region events and methods
+
+        [Route("answers")]
+        [HttpPost]
+        public IHttpActionResult GetPreviousAnswer(Messages.Requests.Message message)
+        {
+            var resposta = _previousAnswersService.GetRespostaAnterior(message.Content);
+            return Ok(new {
+                Content = resposta != null ? resposta.Conclusao : "false"
+            });
+        }
 
         [Route("message")]
         [HttpPost]

@@ -21,7 +21,7 @@ namespace BigBirds.Api
             // register DI
             Bootstrapper.Run();
 
-            Database.SetInitializer<BigBirdsContext>(new EFBootstrap());
+            //Database.SetInitializer<BigBirdsContext>(new EFBootstrap());
         }
     }
 }

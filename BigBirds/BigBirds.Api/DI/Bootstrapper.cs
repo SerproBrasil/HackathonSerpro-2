@@ -32,6 +32,8 @@ namespace BigBirds.Api.DI
 
             // registrar os servicos da aplicacao
             builder.Register<BigBirds.Domain.Contexts.BigBirdsContext>(o => new Domain.Contexts.BigBirdsContext());
+            builder.RegisterType<ConclusaoReclamacaoRepository>().As<IConclusaoReclamacaoRepository>();
+            builder.RegisterType<RespostasAnterioresService>().As<IRespostasAnterioresService>();
             builder.RegisterType<CategoriaRepository>().As<IRepository<Categoria>>();
             builder.RegisterType<OrgaoRepository>().As<IRepository<Orgao>>();
             builder.RegisterType<OrgaoRepository>().As<IOrgaoRepository>();

@@ -1,3 +1,17 @@
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.Test.dll.config
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.Test.dll
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.Test.pdb
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.dll
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\bin\Debug\EntityFramework.dll
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.pdb
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\bin\Debug\EntityFramework.xml
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\obj\Debug\BigBirds.Domain.Test.csprojResolveAssemblyReference.cache
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\obj\Debug\BigBirds.Domain.Test.dll
+C:\Users\mathmovic\Source\Repos\HackathonSerpro2\BigBirds\BigBirds.Domain.Test\obj\Debug\BigBirds.Domain.Test.pdb
+C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\obj\Debug\BigBirds.Domain.Test.csprojResolveAssemblyReference.cache
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.Test.dll.config
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.Test.dll
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.Test.pdb
@@ -8,6 +22,5 @@ C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\Microsoft.VisualS
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\BigBirds.Domain.pdb
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\EntityFramework.xml
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\bin\Debug\EntityFramework.SqlServer.xml
-C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\obj\Debug\BigBirds.Domain.Test.csprojResolveAssemblyReference.cache
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\obj\Debug\BigBirds.Domain.Test.dll
 C:\dev\HackathonSerpro\BigBirds\BigBirds.Domain.Test\obj\Debug\BigBirds.Domain.Test.pdb
